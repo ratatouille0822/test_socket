@@ -13,7 +13,7 @@ def udp_send(socket_send):
 
 def main():
 
-    udp_socket = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+    udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     local_addr = ("", 6777)
     udp_socket.bind(local_addr)
     while True:
